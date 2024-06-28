@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+{% load static %}
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>EmpowerHer Mind</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{% static 'frontend/assets/images/favicon.png' %}" type="image/png">
+
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/animate.css' %}">
+
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="{% static 'frontend/assets/fonts/lineicons/font-css/LineIcons.css' %}">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/bootstrap.min.css' %}">
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/default.css' %}">
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/style.css' %}">
+
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+   
+   
+    <!--====== PRELOADER PART START ======-->
+
+    <!-- <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== HEADER PART START ======-->
+
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="{% url 'ehmapp:home' %}">
+                                <img src="{% static 'frontend/assets/images/logo.png' %}" alt="Logo" height="70px" width="70px">
+                                <!-- <h4><span>EmpowerHer Mind</span></h4> -->
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="{% url 'ehmapp:home' %}">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="page-scroll" href="#services">Services</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#projects">Projects</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="page-scroll" href="#pricing">Pricing</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#blogs">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+
+
+
+    <!--====== HEADER PART ENDS ======-->
