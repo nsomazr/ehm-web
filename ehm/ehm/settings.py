@@ -30,9 +30,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # if not DEBUG:
-#     CSRF_TRUSTED_ORIGINS = ['localhost', '127.0.0.1', '156.67.214.50:8090', 'https://empowerhermind.org', 'empowerhermind.org']
+#     ['http://localhost', 'http://127.0.0.1', 'http://156.67.214.50:8090','https://156.67.214.50:8090', 'https://empowerhermind.org', 'empowerhermind.org']
 
-CSRF_TRUSTED_ORIGINS = ['localhost', '127.0.0.1', '156.67.214.50:8090', 'https://empowerhermind.org', 'empowerhermind.org']
+CSRF_TRUSTED_ORIGINS = ['http://localhost', 'http://127.0.0.1', 'http://156.67.214.50:8090','https://156.67.214.50:8090', 'https://empowerhermind.org', 'http://empowerhermind.org']
 
 # Application definition
 
