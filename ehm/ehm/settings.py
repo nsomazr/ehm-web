@@ -30,9 +30,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # if not DEBUG:
-#     CSRF_TRUSTED_ORIGINS=['http://62.72.27.188','https://62.72.27.188']
+#     CSRF_TRUSTED_ORIGINS = ['localhost', '127.0.0.1', '156.67.214.50:8090', 'https://empowerhermind.org', 'empowerhermind.org']
 
-CSRF_TRUSTED_ORIGINS=['https://empowerhermind.org', 'http://localhost','http://127.0.0.1','https://3b02-41-222-178-16.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['localhost', '127.0.0.1', '156.67.214.50:8090', 'https://empowerhermind.org', 'empowerhermind.org']
 
 # Application definition
 
